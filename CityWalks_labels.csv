@@ -1,0 +1,39 @@
+unlabeled,N/A,0,255,void,0,FALSE,TRUE,0,0,0,0,0,0
+ego vehicle,N/A,1,255,void,0,FALSE,TRUE,0,0,0,0,0,0
+rectification border,N/A,2,255,void,0,FALSE,TRUE,0,0,0,0,0,0
+out of roi,N/A,3,255,void,0,FALSE,TRUE,0,0,0,0,0,0
+static,N/A,4,255,void,0,FALSE,TRUE,0,0,0,0,0,0
+dynamic,N/A,5,255,void,0,FALSE,TRUE,111,74,0,111,74,0
+ground,N/A,6,255,void,0,FALSE,TRUE,81,0,81,81,0,81
+road,N/A,7,0,flat,1,FALSE,FALSE,128,64,128,128,64,128
+sidewalk,N/A,8,1,flat,1,FALSE,FALSE,244,35,232,244,35,232
+parking,N/A,9,255,flat,1,FALSE,TRUE,250,170,160,250,170,160
+rail track,N/A,10,255,flat,1,FALSE,TRUE,230,150,140,230,150,140
+building,N/A,11,2,construction,2,FALSE,FALSE,70,70,70,70,70,70
+wall,N/A,12,3,construction,2,FALSE,FALSE,102,102,156,102,102,156
+fence,N/A,13,4,construction,2,FALSE,FALSE,190,153,153,190,153,153
+guard rail,N/A,14,255,construction,2,FALSE,TRUE,180,165,180,180,165,180
+bridge,N/A,15,255,construction,2,FALSE,TRUE,150,100,100,150,100,100
+tunnel,N/A,16,255,construction,2,FALSE,TRUE,150,120,90,150,120,90
+pole,N/A,17,5,object,3,FALSE,FALSE,153,153,153,153,153,153
+polegroup,N/A,18,255,object,3,FALSE,TRUE,153,153,153,153,153,153
+traffic light,N/A,19,6,object,3,FALSE,FALSE,250,170,30,250,170,30
+traffic sign,N/A,20,7,object,3,FALSE,FALSE,220,220,0,220,220,0
+vegetation,N/A,21,8,nature,4,FALSE,FALSE,107,142,35,107,142,35
+terrain,N/A,22,9,nature,4,FALSE,FALSE,152,251,152,152,251,152
+sky,N/A,23,10,sky,5,FALSE,FALSE,70,130,180,70,130,180
+person,N/A,24,11,human,6,TRUE,FALSE,220,20,60,255,0,0
+rider,N/A,25,12,human,6,TRUE,FALSE,255,0,0,0,250,0
+car,N/A,26,13,vehicle,7,TRUE,FALSE,0,0,142,0,0,142
+truck,N/A,27,14,vehicle,7,TRUE,FALSE,0,0,70,0,0,70
+bus,N/A,28,15,vehicle,7,TRUE,FALSE,0,60,100,0,60,100
+caravan,N/A,29,255,vehicle,7,TRUE,TRUE,0,0,90,0,0,90
+trailer,N/A,30,255,vehicle,7,TRUE,TRUE,0,0,110,0,0,110
+train,N/A,31,16,vehicle,7,TRUE,FALSE,0,80,100,0,80,100
+motorcycle,N/A,32,17,vehicle,7,TRUE,FALSE,0,0,230,0,0,230
+bicycle,N/A,33,18,vehicle,7,TRUE,FALSE,119,11,32,119,11,32
+license plate,N/A,-1,-1,vehicle,7,FALSE,TRUE,0,0,142,0,0,142
+pedestrian,Back,41,19,human,6,TRUE,FALSE,--,--,--,171,121,66
+pedestrian,Right,42,20,human,6,TRUE,FALSE,--,--,--,237,125,49
+pedestrian,Front,43,21,human,6,TRUE,FALSE,--,--,--,220,100,110
+pedestrian,Left,44,22,human,6,TRUE,FALSE,--,--,--,118,214,255
