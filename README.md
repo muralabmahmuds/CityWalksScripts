@@ -27,7 +27,7 @@ Distributions of pedestrian orientations annotated in the CityWalks
 
 ### Download the dataset ###
 
-The CityWalks will be publicly available as a third party contributor to the basis Cityscapes dataset through [this page](https://www.cityscapes-dataset.com/downloads/). The downloaded package will include:
+The CityWalks will be publicly available as a third party contributor to the basis Cityscapes dataset (location: [https://www.cityscapes-dataset.com/downloads/](https://www.cityscapes-dataset.com/downloads/)). The downloaded package will include:
 1. Annotated ground truth
    * gtFine_color: train, val
    * gtFine_labelid: train, val
@@ -37,10 +37,11 @@ The CityWalks will be publicly available as a third party contributor to the bas
 
 ### How to Use the Data? ###
 
-1. Download the CityWalks package, place the dataset (folder: 'CityWalks', including all folders and files in it) in your designated directory.
-2. It's preferable to use a .txt file to list all input and ground truth pairs for training your model.
+1. Download the CityWalks package, place the extracted folders and files into your designated directory.
+2. It is recommended to use a .txt file to list all input and ground truth pairs for training your model; Use provided scripts to create the lists.
 3. Ensure your model has been set with 23 classes for the number of final layer's output.
 4. Train your model using the CityWalks, as how you train a semantic segmentation model.
+You can also refer to our repository for further discussion: [https://github.com/muralabmahmuds/CityWalksScripts](https://github.com/muralabmahmuds/CityWalksScripts).
 
 
 ### Citation ###
