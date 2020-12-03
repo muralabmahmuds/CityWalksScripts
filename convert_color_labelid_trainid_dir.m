@@ -22,7 +22,7 @@ end
 % read per image
 for mm=1:length(list_img)
     % image path
-    img_path = imread([dir_in '/' list_img(mm).name]);
+    img_path = [dir_in '/' list_img(mm).name];
     
     % image name
     [path, name, ext] = fileparts(img_path);
