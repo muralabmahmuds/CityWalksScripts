@@ -33,9 +33,9 @@ for mm=1:length(list_img)
     
     % convert color to labelid and trainid
     [out1, out2] = color_to_labelid_trainid(inp);
-    if (sum(sum(out1==99))>0 || sum(sum(out2==99))>0)   %99 is an error marker
-        disp(['Found possible error color on ' img_path]);
-    end
+    %if (sum(sum(out1==99))>0 || sum(sum(out2==99))>0)   %99 is an error marker
+    %    disp(['Found possible error color on ' img_path]);
+    %end
     
     % convert to uint8
     out1 = uint8(out1);
