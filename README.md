@@ -3,6 +3,8 @@
 
 ### Introduction ###
 
+<img src="1.jpg" alt="1" width="500"/>
+
 Semantic segmentation nowadays becomes an interesting topic to many researchers and practitioners in the fields of machine learning and computer vision. There are numerous challenges that are publicly available; one of them is the Cityscapes which is very popular in the semantic segmentation task intended for autonomous driving applications. However, the Cityscapes provides the annotations to only learn the name of objects. Meanwhile, for traffic scene understanding purposes, additional information describing a particular object such as its attributes is important to enrich the semantic information and may help improve the segmentation performance.
 
 We construct the CityWalks, which is an extension of the [Cityscapes dataset](https://www.cityscapes-dataset.com/), by re-annotating the original ground truth with additional labels corresponding to four pedestrian’s body orientations. It is constructed to challenge the attribute-aware semantic segmentation task aimed at understanding the pedestrians’ walks. Information regarding pedestrian’s moving orientation is meaningful and important for driving assistant and possible risk avoidance.
@@ -10,19 +12,24 @@ We construct the CityWalks, which is an extension of the [Cityscapes dataset](ht
 The re-annotation process is applied to the original Cityscapes’ ground truth provided in training and validation sets, containing 2,975 and 500 images, respectively. The ground truth re-annotation was conducted manually and very carefully by appointed annotators with considering details in pixel-level using a conventional image editor. By extending the class person into four classes representing pedestrian’s orientation classes (back, right, front, and left) and preserving the original class of person, the CityWalks provides trainable 23 classes encoded in ‘trainId’.
 
 Guide in the re-annotation process with pedestrian’s body orientations
-[IMAGE]
+
+<img src="2.jpg" alt="2" width="600"/>
 
 Examples comparing the ground truths from the original Cityscapes and the CityWalks
-[IMAGE]
+
+<img src="3.jpg" alt="3" width="800"/>
 
 Labels and colors provided by the CityWalks for the 23 trainable classes
-[IMAGE]
+
+<img src="4.jpg" alt="4" width="800"/>
 
 Statistic of the CityWalks
-[IMAGE]
+
+<img src="5.jpg" alt="5" width="600"/>
 
 Distributions of pedestrian orientations annotated in the CityWalks
-[IMAGE]
+
+<img src="6.jpg" alt="6" width="400"/>
 
 
 ### Download the dataset ###
